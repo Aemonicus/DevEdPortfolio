@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li, button, label, input, p, a {
+  font-size: $textFontSize;
+  list-style: none;
+}
+
+h1 {
+  font-size: $headerFontSize1;
+}
+
+h2 {
+  font-size: $headerFontSize2;
+}
+
+h3 {
+  font-size: $headerFontSize3;
+}
+
+h4, h5 {
+  font-size: $headerFontSize4;
+}
+
+a {
+  text-decoration: none;
+  color: $gray-text;
+}
+
+ul {
+  list-style: none;
+}
